@@ -1,0 +1,117 @@
+#中国域名漏网之鱼补充
+payload:
+
+# CN域名直连(中国|公司|网络)
+  - DOMAIN-SUFFIX,cn
+  
+#建设银行
+  - DOMAIN-SUFFIX,ccb.com
+
+#海尔
+  - DOMAIN-SUFFIX,haier.net
+  - DOMAIN-SUFFIX,haier.com
+  - DOMAIN-SUFFIX,ehaier.com
+  - DOMAIN-SUFFIX,haiersmarthomes.com
+  - DOMAIN-SUFFIX,shunguang.com
+  - DOMAIN-SUFFIX,haigeek.com
+  - DOMAIN-SUFFIX,haiershequ.com
+
+#美的
+  - DOMAIN-SUFFIX,midea.com
+  - DOMAIN-SUFFIX,smartmidea.net
+
+#抖音
+  - DOMAIN-SUFFIX,volcgslb.com
+  - DOMAIN-SUFFIX,idouyinvod.com
+
+#国聘
+  - DOMAIN-SUFFIX,iguopin.com
+
+#ip查询网站
+  - DOMAIN-SUFFIX,ip138.com
+
+#iStoreOS
+  - DOMAIN-SUFFIX,koolcenter.com
+  - DOMAIN-SUFFIX,istore.linkease.com
+
+#百词斩
+  - DOMAIN-SUFFIX,bczcdn.com
+  - DOMAIN-SUFFIX,baicizhan.org
+
+#云眸社区
+  - DOMAIN-SUFFIX,hik-cloud.com
+
+#东风日产
+  - DOMAIN-SUFFIX,venucia.com
+
+#联通
+  - DOMAIN-SUFFIX,unicompayment.com
+
+#北京银行
+  - DOMAIN-SUFFIX,95526.mobi
+
+#随手记
+  - DOMAIN-SUFFIX,feidee.net
+  - DOMAIN-SUFFIX,ssjlicai.com
+  - DOMAIN-SUFFIX,cardniu.com
+
+#招商银行
+  - DOMAIN-SUFFIX,cmbchina.com
+
+#银联
+  - DOMAIN-SUFFIX,95516.com
+  - DOMAIN-KEYWORD,95516
+
+#中信银行
+  - DOMAIN-SUFFIX,citicbank.com
+  - DOMAIN-SUFFIX,cfhc.citic
+  - DOMAIN-SUFFIX,intsig.net
+
+#国家电网
+  - DOMAIN-SUFFIX,95598pay.com
+  - DOMAIN-SUFFIX,cl2009.com
+
+#美柚
+  - DOMAIN-SUFFIX,seeyouyima.com
+  - DOMAIN-SUFFIX,alibabachengdun.com
+  - DOMAIN-SUFFIX,mssdk.volces.com
+  - DOMAIN-SUFFIX,qiyukf.com
+  - DOMAIN-SUFFIX,meiyou.com
+  - DOMAIN-SUFFIX,hzchengdun.com
+  - DOMAIN-SUFFIX,youzibuy.com
+  - DOMAIN-SUFFIX,xmseeyouyima.com
+
+#看理想
+  - DOMAIN-SUFFIX,volccdn.com
+
+#电视家
+  - DOMAIN-SUFFIX,dianshihome.com
+  - DOMAIN-SUFFIX,dianshige.com
+
+#微信
+  - DOMAIN-SUFFIX,servicewechat.com
+
+#晋享支付
+  - DOMAIN-SUFFIX,shanxinj.com
+
+#阿里云盘资源
+  - DOMAIN-SUFFIX,3000t.top
+  - DOMAIN-SUFFIX,link3.cc
+
+#其他
+  - DOMAIN-SUFFIX,gitv.tv
+  - DOMAIN-SUFFIX,ecombdapi.com
+  - DOMAIN-SUFFIX,ks-live.com
+  - DOMAIN-SUFFIX,qhres2.com
+  - DOMAIN-SUFFIX,volcsirius.com
+  - DOMAIN-SUFFIX,yundzh.com
+  - DOMAIN-SUFFIX,dingxiang-inc.com
+  - DOMAIN-SUFFIX,cmpassport.com
+  - DOMAIN-SUFFIX,aoscdn.com
+  - DOMAIN-SUFFIX,netease.im
+  - DOMAIN,httpdns.yunxindns.com
+  - DOMAIN-SUFFIX,lot-ml.com
+  - DOMAIN-SUFFIX,qingshuxuetang.com
+  - DOMAIN-SUFFIX,qsxt.info
+  - DOMAIN-SUFFIX,weiku.co
+  - DOMAIN-SUFFIX,sxtgedu.net
