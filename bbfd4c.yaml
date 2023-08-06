@@ -1,6 +1,6 @@
 payload:
 
 # google
-  - DOMAIN-SUFFIX,gstatic.com
-  - DOMAIN-SUFFIX,googleapis.com
-  - DOMAIN-SUFFIX,pki.goog
+  # - DOMAIN-SUFFIX,gstatic.com
+  # - DOMAIN-SUFFIX,googleapis.com
+  # - DOMAIN-SUFFIX,pki.goog
