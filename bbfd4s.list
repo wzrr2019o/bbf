@@ -2,3 +2,11 @@
 # DOMAIN-SUFFIX,gstatic.com
 # DOMAIN-SUFFIX,googleapis.com
 # DOMAIN-SUFFIX,pki.goog
+
+#apple
+DOMAIN,init.push.apple.com
+DOMAIN,p38-buy.itunes.apple.com
+DOMAIN,init.ess.apple.com
+DOMAIN,musicstatus.itunes.apple.com
+DOMAIN,gateway.icloud.com
+DOMAIN,musicstatus.itunes.apple.com
