@@ -98,6 +98,9 @@ payload:
   - DOMAIN-SUFFIX,3000t.top
   - DOMAIN-SUFFIX,link3.cc
 
+#作业帮
+  - DOMAIN-SUFFIX,baichuanweb.com
+
 #其他
   - DOMAIN-SUFFIX,gitv.tv
   - DOMAIN-SUFFIX,ecombdapi.com
