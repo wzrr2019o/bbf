@@ -43,6 +43,7 @@ DOMAIN-SUFFIX,hik-cloud.com
 
 #东风日产
 DOMAIN-SUFFIX,venucia.com
+DOMAIN,st.szlanyou.com
 
 #联通
 DOMAIN-SUFFIX,unicompayment.com
@@ -103,6 +104,9 @@ DOMAIN-SUFFIX,baichuanweb.com
 
 #自助洗车
 DOMAIN,wx.zizhuxitong.com
+
+#apple
+DOMAIN,gspe79-cn-ssl.ls.apple.com
 
 #其他
 DOMAIN-SUFFIX,gitv.tv
