@@ -6,6 +6,7 @@
 #apple
 DOMAIN,init.push.apple.com
 DOMAIN,p38-buy.itunes.apple.com
+DOMAIN,p22-buy.itunes.apple.com
 DOMAIN,init.ess.apple.com
 DOMAIN,musicstatus.itunes.apple.com
 DOMAIN,gateway.icloud.com
