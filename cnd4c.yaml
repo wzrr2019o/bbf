@@ -108,6 +108,13 @@ payload:
 #apple
   - DOMAIN,gspe79-cn-ssl.ls.apple.com
 
+#Microsoft
+  - DOMAIN,ts3.cn.mm.bing.net
+  - DOMAIN,ts4.cn.mm.bing.net
+  - DOMAIN,ecn.dev.ditu.live.com
+  - DOMAIN,ts2.cn.mm.bing.net
+  - DOMAIN,res.cdn.office.net
+
 #其他
   - DOMAIN-SUFFIX,gitv.tv
   - DOMAIN-SUFFIX,ecombdapi.com
