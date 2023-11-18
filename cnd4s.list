@@ -116,6 +116,10 @@ DOMAIN,ecn.dev.ditu.live.com
 DOMAIN,ts2.cn.mm.bing.net
 DOMAIN,res.cdn.office.net
 
+#AView监控app
+DOMAIN-SUFFIX,dayspick.com
+DOMAIN-SUFFIX,hcciot.com
+
 #其他
 DOMAIN-SUFFIX,gitv.tv
 DOMAIN-SUFFIX,ecombdapi.com
