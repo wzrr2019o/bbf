@@ -1,0 +1,340 @@
+mixed-port: 7890
+allow-lan: false
+external-controller: 0.0.0.0:45354
+secret: '000045354'
+
+proxies:
+  # - {name: vless-reality-vision, server: 104.128.94.44, type: vless, port: 25429, uuid: 2f4b8dda-8282-4a8e-b67e-cfac76437b0e, network: tcp, tls: true, udp: true, flow: xtls-rprx-vision, reality-opts: {public-key: g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14}, servername: www.microsoft.com, client-fingerprint: chrome}
+ 
+  # - name: jzplq-1
+  #   server: 104.128.94.44
+  #   type: vless
+  #   port: 50765
+  #   uuid: 388fcd24-a402-47f2-c521-e33e175556c4
+  #   network: tcp
+  #   tls: true
+  #   udp: true
+  #   flow: xtls-rprx-vision
+  #   reality-opts:
+  #     public-key: UK7qxWWGfRQcQfwaGpHnqmmqqJBut4jxve8AeDDJ2UI
+  #     short-id: 9d9e0a45
+  #   servername: itunes.apple.com
+  #   client-fingerprint: chrome
+
+  # - name: jzplq-2
+  #   server: 104.128.94.44
+  #   type: vless
+  #   port: 42354
+  #   uuid: 5402cdb9-c847-41be-8fc7-93bf9e8311f9
+  #   network: tcp
+  #   tls: true
+  #   udp: true
+  #   flow: xtls-rprx-vision
+  #   reality-opts:
+  #     public-key: 4comh-7Jm_wZXJQ5QiLSCbVGQIbMUzHUIBdb0aFtLzM
+  #     short-id: be9ed506
+  #   servername: addons.mozilla.org
+  #   client-fingerprint: chrome
+     
+  - name: jzplq-3
+    server: 104.128.94.44
+    type: vless
+    port: 19386
+    uuid: 3f10a132-ae39-40b9-f32a-615dc01b7cb4
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
+      short-id: 7d21719a
+    servername: www.icloud.com
+    client-fingerprint: chrome
+   
+  # - name: jzplq-4
+  #   server: 104.128.94.44
+  #   type: vless
+  #   port: 12650
+  #   uuid: 538cb8fd-be46-43cf-85bc-77e9f6cd233b
+  #   network: tcp
+  #   tls: true
+  #   udp: true
+  #   flow: xtls-rprx-vision
+  #   reality-opts:
+  #     public-key: W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg
+  #     short-id: 48b273ad
+  #   servername: www.lovelive-anime.jp
+  #   client-fingerprint: chrome
+   
+  # - name: jzplq-5
+  #   server: 104.128.94.44
+  #   type: vless
+  #   port: 22181
+  #   uuid: 64b2097f-e29e-41e5-ef18-fda36c3fa5c4
+  #   network: tcp
+  #   tls: true
+  #   udp: true
+  #   flow: xtls-rprx-vision
+  #   reality-opts:
+  #     public-key: rwpbqas_HY8knlW0fFSIeUrjgBXHBzSNboflsLD8elA
+  #     short-id: 3807445e
+  #   servername: swdist.apple.com
+  #   client-fingerprint: chrome
+   
+  # - name: jzplq-6
+  #   server: 104.128.94.44
+  #   type: vless
+  #   port: 57355
+  #   uuid: ec62e60b-b320-40d4-e991-b0ec854fde65
+  #   network: tcp
+  #   tls: true
+  #   udp: true
+  #   flow: xtls-rprx-vision
+  #   reality-opts:
+  #     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  #     short-id: 1cf79398
+  #   servername: icloud.cdn-apple.com
+  #   client-fingerprint: chrome
+
+  # - name: jzplq-7
+  #   server: 104.128.94.44
+  #   type: vless
+  #   port: 13730
+  #   uuid: aeb8440d-c2c1-4eca-de0d-cfd1bc5838fb
+  #   network: tcp
+  #   tls: true
+  #   udp: true
+  #   flow: xtls-rprx-vision
+  #   reality-opts:
+  #     public-key: W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg
+  #     short-id: 2f4bd867
+  #   servername: www.jzplq.nl
+  #   client-fingerprint: chrome
+
+  # - name: jzplq-8
+  #   server: 104.128.94.44
+  #   type: vless
+  #   port: 443
+  #   uuid: 9fb5f4e5-e833-4d26-9884-b8de6b4892cf
+  #   network: tcp
+  #   tls: true
+  #   udp: true
+  #   flow: xtls-rprx-vision
+  #   reality-opts:
+  #     public-key: 4comh-7Jm_wZXJQ5QiLSCbVGQIbMUzHUIBdb0aFtLzM
+  #     short-id: 410cc0d6
+  #   servername: www.jjfjj.link
+  #   client-fingerprint: chrome
+
+proxy-groups:
+  - name: mSelfSelect
+    type: select
+    proxies:
+      # - mAutoSelect
+      # - jzplq-1
+      # - jzplq-2
+      - jzplq-3
+      # - jzplq-4
+      # - jzplq-5
+      # - jzplq-6
+      # - jzplq-7
+      # - jzplq-8
+      - mDirect
+      - mReject
+
+  # - name: mAutoSelect
+  #   type: url-test
+  #   url: http://www.gstatic.com/generate_204
+  #   interval: 600
+  #   tolerance: 50
+  #   proxies:
+  #     - jzplq-1
+  #     - jzplq-2
+  #     - jzplq-3
+  #     - jzplq-4
+  #     - jzplq-5
+  #     - jzplq-6
+  #     - jzplq-7
+  #     - jzplq-8
+
+  - name: mDirect
+    type: select
+    proxies:
+      - DIRECT
+
+  - name: mReject
+    type: select
+    proxies:
+      - REJECT
+
+  - name: mMicrosoft
+    type: select
+    proxies:
+      - mSelfSelect
+      # - jzplq-1
+      # - jzplq-2
+      - jzplq-3
+      # - jzplq-4
+      # - jzplq-5
+      # - jzplq-6
+      # - jzplq-7
+      # - jzplq-8
+      - mDirect
+      - mReject
+      
+  - name: mApple
+    type: select
+    proxies:
+      - mSelfSelect
+      # - jzplq-1
+      # - jzplq-2
+      - jzplq-3
+      # - jzplq-4
+      # - jzplq-5
+      # - jzplq-6
+      # - jzplq-7
+      # - jzplq-8
+      - mDirect
+      - mReject
+
+
+rule-providers:
+  reject:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
+    path: "/etc/openclash/rule_provider/reject.yaml"
+    interval: 86400
+
+  icloud:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt"
+    path: "/etc/openclash/rule_provider/icloud.yaml"
+    interval: 86400
+
+  apple:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt"
+    path: "/etc/openclash/rule_provider/apple.yaml"
+    interval: 86400
+
+  google:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt"
+    path: "/etc/openclash/rule_provider/google.yaml"
+    interval: 86400
+
+  proxy:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt"
+    path: "/etc/openclash/rule_provider/proxy.yaml"
+    interval: 86400
+
+  direct:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt"
+    path: "/etc/openclash/rule_provider/direct.yaml"
+    interval: 86400
+
+  private:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt"
+    path: "/etc/openclash/rule_provider/private.yaml"
+    interval: 86400
+
+  # gfw:
+  #   type: http
+  #   behavior: domain
+  #   url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt"
+  #   path: "/etc/openclash/rule_provider/gfw.yaml"
+  #   interval: 86400
+
+  # tld-not-cn:
+  #   type: http
+  #   behavior: domain
+  #   url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.txt"
+  #   path: "/etc/openclash/rule_provider/tld-not-cn.yaml"
+  #   interval: 86400
+
+  telegramcidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt"
+    path: "/etc/openclash/rule_provider/telegramcidr.yaml"
+    interval: 86400
+
+  cncidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt"
+    path: "/etc/openclash/rule_provider/cncidr.yaml"
+    interval: 86400
+
+  lancidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
+    path: "/etc/openclash/rule_provider/lancidr.yaml"
+    interval: 86400
+
+  applications:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt"
+    path: "/etc/openclash/rule_provider/applications.yaml"
+    interval: 86400
+
+  microsoft:
+    type: http
+    behavior: classical
+    path: "/etc/openclash/rule_provider/Microsoft.yaml"
+    url: https://raw.githubusercontent.com/jzplq/bbf/dev/ms4c.yaml
+    interval: 86400
+
+  mycndomain:
+    type: http
+    behavior: classical
+    path: "/etc/openclash/rule_provider/mycndomain.yaml"
+    url: https://raw.githubusercontent.com/jzplq/bbf/dev/cnd4c.yaml
+    interval: 86400
+
+  bbfdomain:
+    type: http
+    behavior: classical
+    path: "/etc/openclash/rule_provider/bbfdomain.yaml"
+    url: https://raw.githubusercontent.com/jzplq/bbf/dev/bbfd4c.yaml
+    interval: 86400
+
+
+rules:
+  - RULE-SET,applications,mDirect
+  - DOMAIN,clash.razord.top,mDirect
+  - DOMAIN,yacd.haishan.me,mDirect
+  # google中国大陆域名强制走代理
+  - RULE-SET,google,mSelfSelect
+  - RULE-SET,private,mDirect
+  - RULE-SET,reject,mReject
+  # 捕捉漏网之鱼
+  - RULE-SET,mycndomain,mDirect
+  # 微软域名单独控制
+  - RULE-SET,microsoft,mMicrosoft
+  # 苹果域名单独控制
+  - RULE-SET,icloud,mApple
+  - RULE-SET,apple,mApple
+  # 自定义需要直接代理的域名
+  - RULE-SET,bbfdomain,mSelfSelect
+  # - RULE-SET,proxy,mSelfSelect
+  # - RULE-SET,direct,mDirect
+  - GEOSITE,CN,mDirect
+  - RULE-SET,lancidr,mDirect,no-resolve
+  - RULE-SET,cncidr,mDirect,no-resolve
+  - RULE-SET,telegramcidr,mSelfSelect,no-resolve
+  - GEOIP,LAN,mDirect,no-resolve
+  - GEOIP,CN,mDirect,no-resolve
+  - MATCH,mSelfSelect
