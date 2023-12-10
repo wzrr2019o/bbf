@@ -1,3 +1,4 @@
+#Subscribe4S
 mixed-port: 7890
 allow-lan: false
 external-controller: 0.0.0.0:45354
