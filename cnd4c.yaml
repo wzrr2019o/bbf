@@ -120,6 +120,9 @@ payload:
   - DOMAIN-SUFFIX,dayspick.com
   - DOMAIN-SUFFIX,hcciot.com
 
+#台球帝国
+  - DOMAIN-SUFFIX,52mvp.com
+
 #其他
   - DOMAIN-SUFFIX,gitv.tv
   - DOMAIN-SUFFIX,ecombdapi.com
