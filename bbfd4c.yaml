@@ -13,3 +13,4 @@ payload:
   - DOMAIN,musicstatus.itunes.apple.com
   - DOMAIN,gateway.icloud.com
   - DOMAIN,musicstatus.itunes.apple.com
+  - DOMAIN,init.itunes.apple.com
