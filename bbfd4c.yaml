@@ -17,3 +17,4 @@ payload:
   - DOMAIN,iphone-ld.apple.com
   - DOMAIN,ocsp2.apple.com
   - DOMAIN,mesu.apple.com
+  - DOMAIN,gspe35-ssl.ls.apple.com
