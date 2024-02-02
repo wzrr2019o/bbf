@@ -31,6 +31,7 @@ RULE-SET,https://raw.githubusercontent.com/jzplq/bbf/dev/ms4s.list,PROXY
 RULE-SET,https://raw.githubusercontent.com/jzplq/bbf/dev/bbfd4s.list,PROXY
 
 DOMAIN-SUFFIX,apple.com,PROXY
+DOMAIN-SUFFIX,cdn-apple.com,PROXY
 
 ### 取自Loyalsoldier的surge-rules（https://github.com/Loyalsoldier/surge-rules） ###
 RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/icloud.txt,PROXY
