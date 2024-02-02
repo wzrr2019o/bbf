@@ -112,9 +112,7 @@ payload:
 #Microsoft
   - DOMAIN,ts3.cn.mm.bing.net
   - DOMAIN,ts4.cn.mm.bing.net
-  - DOMAIN,ecn.dev.ditu.live.com
   - DOMAIN,ts2.cn.mm.bing.net
-  - DOMAIN,res.cdn.office.net
 
 #AView监控app
   - DOMAIN-SUFFIX,dayspick.com
