@@ -592,3 +592,4 @@ payload:
   - DOMAIN-SUFFIX,officecdn-microsoft-com.akamaized.net
   - DOMAIN-SUFFIX,statics-marketingsites-eus-ms-com.akamaized.net
   - DOMAIN-SUFFIX,statics-marketingsites-wcus-ms-com.akamaized.net
+  - DOMAIN-SUFFIX,msftncsi.com
