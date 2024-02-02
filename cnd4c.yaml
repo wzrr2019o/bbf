@@ -110,9 +110,7 @@ payload:
   - DOMAIN,gspe79-cn-ssl.ls.apple.com
 
 #Microsoft
-  - DOMAIN,ts3.cn.mm.bing.net
-  - DOMAIN,ts4.cn.mm.bing.net
-  - DOMAIN,ts2.cn.mm.bing.net
+
 
 #AView监控app
   - DOMAIN-SUFFIX,dayspick.com
