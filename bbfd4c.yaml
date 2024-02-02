@@ -15,3 +15,5 @@ payload:
   - DOMAIN,musicstatus.itunes.apple.com
   - DOMAIN,init.itunes.apple.com
   - DOMAIN,iphone-ld.apple.com
+  - DOMAIN,ocsp2.apple.com
+  - DOMAIN,mesu.apple.com
