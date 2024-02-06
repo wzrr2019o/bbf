@@ -23,15 +23,12 @@ RULE-SET,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/rule
 RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/reject.txt,REJECT
 
 ### 自我维护 ###
-# 捕捉漏网之鱼
+# 自定义直连的域名
 RULE-SET,https://raw.githubusercontent.com/jzplq/bbf/dev/cnd4s.list,DIRECT
 # 微软域名
 RULE-SET,https://raw.githubusercontent.com/jzplq/bbf/dev/ms4s.list,PROXY
-# 自定义需要直接代理的域名
+# 自定义直接代理的域名
 RULE-SET,https://raw.githubusercontent.com/jzplq/bbf/dev/bbfd4s.list,PROXY
-
-DOMAIN-SUFFIX,apple.com,PROXY
-DOMAIN-SUFFIX,cdn-apple.com,PROXY
 
 ### 取自Loyalsoldier的surge-rules（https://github.com/Loyalsoldier/surge-rules） ###
 RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/icloud.txt,PROXY
@@ -42,6 +39,7 @@ RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/pr
 RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/direct.txt,DIRECT
 RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/telegramcidr.txt,PROXY,no-resolve
 RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/cncidr.txt,DIRECT,no-resolve
+
 GEOIP,LAN,DIRECT,no-resolve
 GEOIP,CN,DIRECT,no-resolve
 FINAL,PROXY
