@@ -107,6 +107,7 @@ DOMAIN-SUFFIX,baichuanweb.com
 DOMAIN,wx.zizhuxitong.com
 
 #apple
+DOMAIN-SUFFIX,push.apple.com
 DOMAIN,gspe79-cn-ssl.ls.apple.com
 DOMAIN,cl4-cn.apple.com
 DOMAIN,gs-loc-cn.apple.com
