@@ -107,28 +107,7 @@ DOMAIN-SUFFIX,baichuanweb.com
 DOMAIN,wx.zizhuxitong.com
 
 #apple
-DOMAIN,www-cdn.icloud.com.akadns.net
-DOMAIN-SUFFIX,aaplimg.com
-DOMAIN-SUFFIX,apple-cloudkit.com
-DOMAIN-SUFFIX,apple.co
-DOMAIN-SUFFIX,apple.com
-DOMAIN-SUFFIX,apple.news
-DOMAIN-SUFFIX,apple.com.cn
-DOMAIN-SUFFIX,appstore.com
-DOMAIN-SUFFIX,cdn-apple.com
-DOMAIN-SUFFIX,crashlytics.com
-DOMAIN-SUFFIX,icloud-content.com
-DOMAIN-SUFFIX,icloud.com
-DOMAIN-SUFFIX,icloud.com.cn
-DOMAIN-SUFFIX,me.com
-DOMAIN-SUFFIX,mzstatic.com
-#DOMAIN-SUFFIX,push.apple.com
-#DOMAIN,gspe79-cn-ssl.ls.apple.com
-#DOMAIN,cl4-cn.apple.com
-#DOMAIN,gs-loc-cn.apple.com
-#DOMAIN,gspe85-cn-ssl.ls.apple.com
-#DOMAIN,cl2-cn.apple.com
-#DOMAIN,gsp85-cn-ssl.ls.apple.com
+
 
 #Microsoft
 
