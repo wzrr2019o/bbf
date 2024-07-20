@@ -26,3 +26,6 @@ payload:
 #   - DOMAIN,ipcdn.apple.com
 #   - DOMAIN,xp.apple.com
 #   - DOMAIN,valid.apple.com
+
+#alist
+- DOMAIN,api.xhofe.top
