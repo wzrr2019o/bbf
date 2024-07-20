@@ -28,4 +28,4 @@ payload:
 #   - DOMAIN,valid.apple.com
 
 #alist
-- DOMAIN,api.xhofe.top
+  - DOMAIN,api.xhofe.top
