@@ -1,1 +1,13 @@
-
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain_suffix": [
+        "v6.navy"
+      ],
+      "domain_keyword": [
+        
+      ]
+    }
+  ]
+}
