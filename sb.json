@@ -1,0 +1,324 @@
+{
+	"log": {
+		"disabled": false,
+		"level": "warn",
+		"timestamp": true
+	},
+	"dns": {
+		"servers": [
+			{
+				"tag": "default-dns",
+				"address": "223.5.5.5",
+				"detour": "direct-out"
+			},
+			{
+				"tag": "system-dns",
+				"address": "local",
+				"detour": "direct-out"
+			},
+			{
+				"tag": "block-dns",
+				"address": "rcode://name_error"
+			},
+			{
+				"tag": "google",
+				"address": "https://dns.google/dns-query",
+				"address_resolver": "default-dns",
+				"address_strategy": "ipv4_only",
+				"strategy": "ipv4_only",
+				"client_subnet": "218.26.162.114"
+			}
+		],
+		"rules": [
+			{
+				"outbound": [
+					"any"
+				],
+				"server": "default-dns"
+			},
+			{
+				"clash_mode": "direct",
+				"server": "default-dns"
+			},
+			{
+				"clash_mode": "global",
+				"server": "google"
+			},
+			{
+				"rule_set": [
+					"MicrosoftSite"
+				],
+				"server": "google"
+			},
+			{
+				"rule_set": [
+					"cnSite"
+				],
+				"server": "default-dns"
+			}
+		],
+		"disable_cache": false,
+		"disable_expire": false,
+		"independent_cache": false,
+		"final": "google"
+	},
+	"inbounds": [
+		{
+			"type": "tun",
+			"tag": "tun-in",
+			"inet4_address": "172.19.0.1/30",
+			"mtu": 9000,
+			"gso": true,
+			"auto_route": true,
+			"stack": "system",
+			"sniff": true,
+			"sniff_override_destination": false
+		 }
+	],
+	"outbounds": [
+		{
+			"type": "direct",
+			"tag": "direct-out",
+			"routing_mark": 100
+		},
+		{
+			"type": "block",
+			"tag": "block-out"
+		},
+		{
+			"type": "dns",
+			"tag": "dns-out"
+		},
+		{
+			"type": "vless",
+			"tag": "Reality|itunes.apple.com",
+			"routing_mark": 100,
+			"server": "89.208.249.45",
+			"server_port": 25664,
+			"uuid": "1a02c1c5-555a-4c3c-f13e-7a65b9854fc3",
+			"flow": "xtls-rprx-vision",
+			"packet_encoding": "xudp",
+			"tls": {
+				"enabled": true,
+				"server_name": "itunes.apple.com",
+				"insecure": false,
+				"utls": {
+					"enabled": true,
+					"fingerprint": "chrome"
+				},
+				"reality": {
+					"enabled": true,
+					"public_key": "4comh-7Jm_wZXJQ5QiLSCbVGQIbMUzHUIBdb0aFtLzM"
+				}
+			}
+		},
+		{
+			"type": "vless",
+			"tag": "Reality|addons.mozilla.org",
+			"routing_mark": 100,
+			"server": "89.208.249.45",
+			"server_port": 36850,
+			"uuid": "93f80822-dcd2-4a06-ff87-d4f7536beb5f",
+			"flow": "xtls-rprx-vision",
+			"packet_encoding": "xudp",
+			"tls": {
+				"enabled": true,
+				"server_name": "addons.mozilla.org",
+				"insecure": false,
+				"utls": {
+					"enabled": true,
+					"fingerprint": "chrome"
+				},
+				"reality": {
+					"enabled": true,
+					"public_key": "IiuIighvDsor2v-vb5s3IJbNiqwLw568auiqoXxc7FM"
+				}
+			}
+		},
+		{
+			"type": "vless",
+			"tag": "Reality|www.icloud.com",
+			"routing_mark": 100,
+			"server": "89.208.249.45",
+			"server_port": 12048,
+			"uuid": "2276df80-b09a-479b-cf9d-a29aae5a0b1e",
+			"flow": "xtls-rprx-vision",
+			"packet_encoding": "xudp",
+			"tls": {
+				"enabled": true,
+				"server_name": "www.icloud.com",
+				"insecure": false,
+				"utls": {
+					"enabled": true,
+					"fingerprint": "chrome"
+				},
+				"reality": {
+					"enabled": true,
+					"public_key": "R2gKMF0Tetlnesc1pPkZH9NaOeehw-f5_U9JKG_cLjU"
+				}
+			}
+		},
+		{
+			"type": "vless",
+			"tag": "Reality|www.lovelive-anime.jp",
+			"routing_mark": 100,
+			"server": "89.208.249.45",
+			"server_port": 36894,
+			"uuid": "c89cd054-1834-4498-da05-44eee07d6012",
+			"flow": "xtls-rprx-vision",
+			"packet_encoding": "xudp",
+			"tls": {
+				"enabled": true,
+				"server_name": "www.lovelive-anime.jp",
+				"insecure": false,
+				"utls": {
+					"enabled": true,
+					"fingerprint": "chrome"
+				},
+				"reality": {
+					"enabled": true,
+					"public_key": "Z3ZGnAOdKkzJ07gR_7_0k9_iTTFP6paDOrqx1rN2LU4"
+				}
+			}
+		},
+		{
+			"type": "vless",
+			"tag": "Reality|swdist.apple.com",
+			"routing_mark": 100,
+			"server": "89.208.249.45",
+			"server_port": 51024,
+			"uuid": "778a307a-a362-4824-a374-bee9cdf3727f",
+			"flow": "xtls-rprx-vision",
+			"packet_encoding": "xudp",
+			"tls": {
+				"enabled": true,
+				"server_name": "swdist.apple.com",
+				"insecure": false,
+				"utls": {
+					"enabled": true,
+					"fingerprint": "chrome"
+				},
+				"reality": {
+					"enabled": true,
+					"public_key": "g-oxbqigzCaXqARxuyD2_vbTYeMD9zn8wnTo02S69QM"
+				}
+			}
+		},
+		{
+			"type": "vless",
+			"tag": "Reality|icloud.cdn-apple.com",
+			"routing_mark": 100,
+			"server": "89.208.249.45",
+			"server_port": 16056,
+			"uuid": "77c5885a-e34a-418c-e038-77bfac0398c4",
+			"flow": "xtls-rprx-vision",
+			"packet_encoding": "xudp",
+			"tls": {
+				"enabled": true,
+				"server_name": "icloud.cdn-apple.com",
+				"insecure": false,
+				"utls": {
+					"enabled": true,
+					"fingerprint": "chrome"
+				},
+				"reality": {
+					"enabled": true,
+					"public_key": "W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg"
+				}
+			}
+		},
+		
+		{
+			"type": "selector",
+			"tag": "手动选择",
+			"outbounds": [
+				"Reality|itunes.apple.com",
+				"Reality|addons.mozilla.org",
+				"Reality|www.icloud.com",
+				"Reality|www.lovelive-anime.jp",
+				"Reality|swdist.apple.com",
+				"Reality|icloud.cdn-apple.com"
+			],
+			"default": "Reality|www.icloud.com"
+		},
+		{
+			"type": "selector",
+			"tag": "GLOBAL",
+			"outbounds": [
+				"Reality|itunes.apple.com",
+				"Reality|addons.mozilla.org",
+				"Reality|www.icloud.com",
+				"Reality|www.lovelive-anime.jp",
+				"Reality|swdist.apple.com",
+				"Reality|icloud.cdn-apple.com",
+				"手动选择"
+			],
+			"default": "手动选择"
+		}
+	],
+	"route": {
+		"rules": [
+			{
+				"protocol": "dns",
+				"outbound": "dns-out"
+			},
+			{
+				"clash_mode": "direct",
+				"outbound": "direct-out"
+			},
+			{
+				"clash_mode": "global",
+				"outbound": "GLOBAL"
+			},
+			{
+				"rule_set": [
+					"MicrosoftSite"
+				],
+				"outbound": "手动选择"
+			},
+			{
+				"rule_set": [
+					"cnip",
+					"cnSite"
+				],
+				"outbound": "direct-out"
+			}
+		],
+		"rule_set": [
+			
+            {
+				"type": "remote",
+				"tag": "MicrosoftSite",
+				"format": "binary",
+				"url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geosite/microsoft.srs",
+				"download_detour": "手动选择"
+			},
+            {
+				"type": "remote",
+				"tag": "cnip",
+				"format": "binary",
+				"url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geoip/cn.srs",
+				"download_detour": "手动选择"
+			},
+			{
+				"type": "remote",
+				"tag": "cnSite",
+				"format": "binary",
+				"url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geosite/cn.srs",
+				"download_detour": "手动选择"
+			}
+		],
+		"auto_detect_interface": true,
+		"final": "手动选择"
+	},
+	"experimental": {
+		"cache_file": {
+			"enabled": true
+		},
+		"clash_api": {
+			"external_controller": "127.0.0.1:9090",
+			"external_ui_download_detour": "手动选择",
+			"default_mode": "rule"
+		}
+	}
+}
