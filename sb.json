@@ -82,10 +82,6 @@
 			"routing_mark": 100
 		},
 		{
-			"type": "block",
-			"tag": "block-out"
-		},
-		{
 			"type": "dns",
 			"tag": "dns-out"
 		},
